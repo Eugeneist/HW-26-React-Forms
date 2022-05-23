@@ -32,7 +32,7 @@ const RegistrationForm = () => {
             return;
         }
 
-        if (mail == "" || password == "" || confirmedPass == "") {
+        if (mail === "" || password === "" || confirmedPass === "") {
             setErrorMessage("All fields is required!");
             return;
         }

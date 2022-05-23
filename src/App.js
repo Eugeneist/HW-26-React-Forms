@@ -1,5 +1,5 @@
-import RegistrationForm from './components/ControlledForm';
-import NewUserForm from './components/ReactHookForm';
+import RegistrationForm from './components/RegistrationForm';
+import NewUserForm from './components/UserProfileForm';
 
 function App() {
   return (
